@@ -9,6 +9,8 @@ function randomRGB() {
 }
 
 // looping through each of the chosen wilders
+// for (let i = 0; i < wilders.length; i++) {
+//   const wilder = wilders[i];
 for (const wilder of wilders) {
   console.log(
     // black background, random foreground color and lastly the greeting
